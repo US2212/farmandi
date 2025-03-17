@@ -1,0 +1,62 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002d02;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+    background-color: #001a01;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Header Section */
+.order-header {
+    padding: 50px;
+    text-align: left;
+}
+
+.order-header h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.order-header p {
+    font-size: 18px;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.product {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
